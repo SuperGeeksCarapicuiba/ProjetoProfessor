@@ -1,0 +1,188 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #333;
+
+  /* display: block; */
+}
+
+.banner{
+  color: #fff;
+  text-align: center;
+  padding: 15 auto;
+  margin: 0;
+
+  height: 120px;
+}
+
+.banner img {
+  margin: 0;
+  padding: 0;
+
+  width: auto;
+  height: 130px;
+}
+
+#codImg{
+  width: 100%;
+  overflow: hidden;
+}
+
+#codImg img{
+  float: left;
+  margin-left: -150px;
+  width: 120%;
+  height: 100%;
+}
+
+ul.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #222;
+  width: 100%;
+}
+
+ul.submenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  background-color: #333;
+  display: none;
+}
+
+.menu li{
+  float: left;
+  width: auto;
+  position: relative;
+  
+  text-transform: capitalize;
+}
+
+.submenu li{
+  float: left;
+  width: 200px;
+  position: relative;
+}
+
+.menu li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li:hover > ul.submenu {
+  display: block;
+}
+
+.menu a:hover{
+  background-color: #111;
+}
+
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+  margin: 35px 60px;
+  width: 90%;
+}
+
+.main h3{
+  text-align: center;
+  padding: 5px;
+  margin: 20px;
+}
+
+.main p{
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 60px;
+
+}
+
+h4{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 15px;
+}
+
+.container div{
+  float: left;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  margin: 0 5px;
+}
+
+/* .container p{
+  position: static;
+  text-overflow: clip clip;
+  text-align:justify;
+} */
+
+.container div img {
+  margin: 10px 0;
+}
+
+.noticias{
+  display: block;
+}
+
+#tabela{
+  text-align: center;
+  background: #222;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+#tabela tr{
+  padding: 20px 0;
+}
+
+.btnMenu{
+  padding: 15px 16px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+.btnMenu:hover{
+  opacity: 0.8;  
+}
+
+#play{
+  background-color: #1E90FF;
+}
+
+#xbox{
+  background-color: #00FF7F
+}
+
+#pc{
+  background-color: #778899;
+}
+
+#nintendo{
+  background-color: #DC143C;
+}
+
